@@ -30,14 +30,6 @@ Note: this is an unreleased commit hash with a fix that is needed when connectin
 
    You will need these files to configure the SSL/TLS options.
 
-   The `cqlshrc` file contains the connection details for `_cqlshrc_host` and `_cqlshrc_port` in the code. Here is an example:
-   ```
-   [connection]
-   hostname = 31fecf38-2491-4d43-b6ce-22562679f1b8-us-east1.db.astra.datastax.com
-   port = 34567
-   ssl = true
-   ```
-
 5. Create a keyspace called `community` and create the following table:
 
     ```
