@@ -12,9 +12,7 @@ This code was created in response to a post on the [**DataStax Community**](http
 
 Note: this is an unreleased commit hash with a fix that is needed when connecting to Astra. Once this fix is merged into GoCQL, you will just need to download the latest GoCQL driver (removing from the command above everything from the `@` onwards).
 
-3. Create an [**Astra** database](https://astra.datastax.com). Launching an Apache Cassandra™ database only takes a few clicks.
-
-   It's free to try with no credit card required. Visit https://www.datastax.com/products/datastax-astra-beta for details.
+3. Create an [**Astra** database](https://astra.datastax.com). 
 
 4. [Download the secure connect bundle](https://docs.datastax.com/en/astra/aws/doc/dscloud/astra/dscloudObtainingCredentials.html) for your Astra database.
 
