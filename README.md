@@ -3,7 +3,7 @@ Minimal client application that uses the GoCQL driver and connects to a [**DataS
 
 This code was created in response to a post on the [**DataStax Community**](https://community.datastax.com/) site _"How do I connect to Astra with the gocql driver?"_.
 
-### Note: this is a trivial sample application that uses GoCQL to connect to Astra. Its only purpose is to serve as a minimal example of how to connect to Astra using GoCQL, or for basic connectivity tests. This is NOT a driver library.
+*Note: this is a trivial sample application that uses GoCQL to connect to Astra. Its only purpose is to serve as a minimal example of how to connect to Astra using GoCQL, or for basic connectivity tests. This is NOT a driver library.*
 
 ## Prerequisites
 1. To compile and run the code, download and install the Go language (version 1.18) - see https://go.dev/doc/install.
