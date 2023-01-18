@@ -8,11 +8,9 @@ This code was created in response to a post on the [**DataStax Community**](http
 ## Prerequisites
 1. To compile and run the code, download and install the Go language (version 1.18) - see https://go.dev/doc/install.
 
-2. Install the gocql driver. From the root directory of this project, run:
+2. Install the latest gocql driver. From the root directory of this project, run:
 
-```go get github.com/gocql/gocql@ce100a15a6899a7f42fbdc588874a36afcadc921```
-
-Note: this is an unreleased commit hash with a fix that is needed when connecting to Astra. Once this fix is merged into GoCQL, you will just need to download the latest GoCQL driver (removing from the command above everything from the `@` onwards).
+```go get github.com/gocql/gocql```
 
 3. Create an [**Astra** database](https://astra.datastax.com). 
 
